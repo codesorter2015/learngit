@@ -35,3 +35,13 @@ git add .
 git commit -m "first commit"
 
 git push -u origin master 
+
+# Example
+```
+git init
+git clone {repository url}
+git checkout -b {branch_name}
+git add .
+git commit -m "first commit"
+git push origin {branch_name}
+```
