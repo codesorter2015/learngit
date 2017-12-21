@@ -47,9 +47,11 @@ git push origin {branch_name}
 ```
 
 # Get starting from scratch
+```
 git clone {repository url}
 cd widget
 echo "# My project's README" >> README.md
 git add README.md
 git commit -m "Initial commit"
 git push -u origin master
+```
